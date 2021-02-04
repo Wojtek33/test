@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 0-Demo
+  description: Example repositories
+  tags:
+    - java
+    - data
+    - docker
+  links:
+    - url: https://github.com/Demo1/cli-docker
+      title: cli-docker
+      icon: dashboard
+    - url: https://github.com/Demo2/sc
+      title: sc
+    - url: https://github.com/Demo3/ts
+      title: ts
+    - url: https://github.com/Demo4/wrapper
+      title: wrapper  
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: 0-Demo
+  system: 0-Demo
