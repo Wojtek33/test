@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: org-data
+  description: |
+    Test repository location
+  annotations:
+    github.com/project-slug: Wojtek33/test
+#    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
+#    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  targets:
+    - https://github.com/spotify
